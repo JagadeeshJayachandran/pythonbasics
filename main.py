@@ -5,8 +5,8 @@ import smtplib
 
 import pandas as pd
 
-my_email = "Jagadeeshjayachandran92@gmail.com"
-password = "Jaga@Diya92"
+my_email = "******"
+password = "*****"
 
 # 1. Update the birthdays.csv with your friends & family's details. 
 # HINT: Make sure one of the entries matches today's date for testing purposes. e.g.
@@ -52,7 +52,7 @@ if today_tuple in birthdays_dict:
 # Angela,angela@email.com,1995,12,24
 #Then the birthdays_dict should look like this:
 # birthdays_dict = {
-#     (12, 24): Angela,angela@email.com,1995,12,24
+#     (12, 24): *******,1995,12,24
 # }
 
 #HINT 4: Then you could compare and see if today's month/day tuple matches one of the keys in birthday_dict like this:
